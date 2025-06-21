@@ -1,0 +1,624 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.first-line {
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 15px;
+}
+
+.first-line img{
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-right {
+    justify-self: right;
+}
+
+.header-h1 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin: 0;
+}
+
+.second-line {
+    width: 100%;
+    height: 100%;
+}
+
+.header-ul {
+    display: flex;
+    list-style-type: none;
+    justify-self: right;
+    align-self: center;
+    margin: 0;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.header-ul li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.header-ul a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.header-ul li:hover,
+.header-ul li:hover a {
+    background-color: brown;
+    color: white;
+}
+
+.active {
+    background-color: brown;
+}
+
+.background-img {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('image03.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    display: block;
+    margin: 10px;
+    border: 5px solid;
+    border-color: rgb(255, 255, 255);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    padding: 150px 100px;
+    align-self: center;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+.bg-para {
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 3vw;
+    word-spacing: 10px;
+}
+
+.get-started-btn {
+    border: 5px solid red;
+    width: 100%;
+    padding: 5px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(0, 0, 0);
+    align-items: start;
+    gap: 1rem;
+    padding: 20px;
+    min-height: 500px;
+}
+
+.image-container {
+    display: block;
+    justify-items: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.round-img {
+    display: block;
+    border: 2px solid red;
+    border-radius: 100px;
+    margin: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+.round-img-text {
+    display: block;
+    color:white;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2vw;
+    justify-self: center;
+    align-self: center;
+}
+
+.round-img-text::first-letter {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.question {
+    display: block;
+}
+
+.question h1 {
+    color: white;
+}
+
+.question a {
+    text-decoration: none;
+    color: white;
+}
+
+.question dl {
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.question dd {
+    margin-top: 15px;
+    padding: 2px;
+    align-self: center;
+    justify-self: center;
+}
+
+.information {
+    cursor: pointer;
+}
+
+.information h1 {
+    color: white;
+}
+
+.info-table,td {
+    
+    color: white;
+}
+
+.info-table td{
+    padding: 5px;
+}
+
+.info-table a {
+    text-decoration: none;
+    color: white;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.map h1 {
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    border: none;
+    border-radius: 8px;
+}
+
+footer{
+    background-color: rgb(110, 110, 110);
+    color: white;
+    text-align: center;
+}
+
+
+/*******Styles for Service.html************/
+
+.services {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.services img {
+    width: 110px;
+    border: 5px solid rgb(255, 191, 0);
+}
+
+.services button {
+    background-color: rgb(255, 191, 0);
+    border: none;
+    border-radius: 20px;
+    width: 30%;
+    height: 30px;
+    word-spacing: 5%;
+    font-weight: lighter;
+    font-size: small;
+    display: block;
+    margin-left: auto;
+}
+
+/********* dogHostel.css ******/
+
+.doghostel-form {
+    position: relative;
+    background-image: url("../Practical Tutorial 03 images/image13.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.doghostel-form-background {
+    width: 50%;
+    margin: 50px;
+    padding: 40px;
+    border: 5px solid green;
+    border-radius: 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+}
+
+.doghostel-form-background h1 {
+    font-family:'Times New Roman', Times, serif;
+    color: yellow;
+    margin: 5px;
+}
+
+.doghostel-form-background hr {
+    width: 20%;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.doghostel-form-background form {
+    display: flex;
+    flex-direction: column;
+}
+
+.doghostel-form-background label {
+    font-size: large;
+    margin-top: 20px;
+}
+
+.doghostel-form-background input {
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 5px;
+    color: gray;
+}
+
+.doghostel-form-background input[type = number]{
+    color: black;
+}
+
+.doghostel-form-background button {
+    margin-top: 23px;
+    width: 15%;
+    height: 35px;
+    border: 3px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.doghostel-form-background button:hover {
+    border: 3px solid green;
+}
+
+
+/********** About Us Styles **************/
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dog-img {
+    display: block;
+    justify-self: center;
+    align-self: center;
+    height: 100vh;
+}
+
+.dog-img img{
+    width: 90%;
+    max-width: 100vh;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.details {
+    display: block;
+    justify-items: center;
+    height: 100vh;
+}
+
+.details h1 {
+    margin-bottom: 0;
+}
+
+.details hr {
+    width: 20%;
+    border: 2px solid black;
+    margin-top: 0;
+}
+
+.details p {
+    padding-left: 150px;
+    padding-right: 150px;
+    color: grey;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.btn-arr a {
+    cursor: help;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    cursor: help;
+}
+
+.line {
+    width: 1px;
+    height: 40px;
+    background-color: black;
+    justify-self: center;
+}
+
+.box:hover{
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    cursor: help;
+}
+
+.sm-ar {
+    margin-top: 25px;
+}
+
+.sm-ar li {
+    list-style-type: none;
+    position: relative;
+    float: left;
+    margin-right: 1rem;
+    height: 64px;
+    width: 64px;
+}
+
+.btn-arr a{
+    text-decoration: none;
+    color: black;
+}
+
+.fb img {
+    object-fit: cover;
+    position: absolute;
+}
+
+.inst img {
+    object-fit: cover;
+    position: absolute;
+}
+
+.yt img {
+    object-fit: cover;
+    position: absolute;
+}
+
+.wh img {
+    object-fit: cover;
+    position: absolute;
+}
+
+.sm-ar li .top {
+    opacity: 1;
+}
+
+.sm-ar li .hov {
+    opacity: 0;
+}
+
+.sm-ar li:hover .top {
+    opacity: 0;
+}
+
+.sm-ar li:hover .hov {
+    opacity: 1;
+}
+
+/********* Contact Us styles ****/
+
+.contact-form {
+    background-image: url("../Practical Tutorial 03 images/image08.jpg");
+    background-repeat: repeat-x;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact-form-background {
+    width: 50%;
+    height: 50%;
+    align-self: center;
+    padding: 40px;
+    border-radius: 5px;
+    background: rgb(15, 113, 151);
+}
+
+.contact-form-background h1 {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+.contact-form-background hr {
+    width: 20%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.contact-form-background form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-background label {
+    font-size: large;
+    margin-top: 20px;
+}
+
+.contact-form-background input {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 1px;
+    padding-left: 5px;
+    color: gray;
+}
+
+.contact-form-background input:focus,
+.contact-form-background .msg:focus{
+    background-color: yellow;
+}
+
+.contact-form-background .msg {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-form-background input[type = number]{
+    color: black;
+}
+
+.contact-form-background button {
+    margin-top: 23px;
+    width: 100%;
+    height: 35px;
+    border: 0px solid;
+    border-radius: 20px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing:3px;
+}
+
+/**** review styles *************/
+
+.review {
+    display: grid;
+    grid-template-rows:auto;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 100vw;
+    background-color: gray;
+    height: 100vh;
+}
+.heading h1 {
+    color: yellow;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+.heading hr {
+    width: 20%;
+    margin-left: 40px;
+    border: 2px solid white;
+    margin-top: 0;
+}
+
+.heading {
+    width: 100vw;
+    background-color: grey;
+
+}
+
+.review h1::first-letter {
+    font-weight: bold;
+}
+
+.review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    height: 90%;
+    padding: 10px;
+    justify-self: center;
+    box-shadow: 12px;
+}
+
+.review-card h2 {
+    margin-top: 30px;
+}
+
+.review-card p {
+    color: gray;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 25px;
+    font-family: cursive;
+}
+
+.review-text {
+    display: block;
+    margin: 0;
+    justify-self: center;
+}
+
+.review-card img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 200px;
+}
+
+.prof {
+    margin-top: 10px;
+}
+
+.review-card h4 {
+    color: grey;
+}

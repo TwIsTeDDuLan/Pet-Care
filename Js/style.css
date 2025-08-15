@@ -1,0 +1,28 @@
+body    {
+    background-color: rgb(255, 226, 3);
+}
+
+.pups {
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+button{
+    display: block;
+    margin: 50px auto;
+}
+
+.color_change {
+    display: block;
+    justify-content: center;
+}
+
+.block {
+    background-color: white;
+    justify-self: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+
+}

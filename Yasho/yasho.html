@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yashoda</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <script>
+        function validation(){
+            let userName = document.getElementById('uname').value;
+            let pward = document.getElementById('pward').value;
+            let checkBox = document.getElementById('klogin').checked;
+            if (userName==""){
+                alert("The user Name should not be empty!");
+            }
+
+            if(pward.length < 5){
+                alert("The password must be atleast 5 charactors");
+            }
+
+            if(!checkBox){
+                alert("the check box must be checkd!");
+            }
+        }
+    </script>
+    <body>
+        <form>
+            <label for="uname">User Name:</label>
+            <input id="uname" type="text"><br>
+            <label for="pward">Password:</label>
+            <input id="pward" type="password"><br>
+            <input id="klogin" type="checkbox">
+            <label for="klogin">Keep me loged in</label>
+            <button onclick="validation()" type="button">LOG IN</button>
+        </form>
+    </body>
+</html>

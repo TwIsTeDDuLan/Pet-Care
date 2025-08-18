@@ -1,0 +1,22 @@
+body{
+    background-color: rgba(137, 43, 226, 0.655);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    width: 100%;
+}
+
+.head {
+    background-color: blanchedalmond;
+    margin: 15px auto;
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.head:hover{
+    background-color: red;
+}

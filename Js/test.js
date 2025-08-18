@@ -2,11 +2,23 @@ function changeText() {
     alert('Fuck You Bitch!');
 }
 
-function changeColor(x){
-    if(x == 1){
-        document.getElementById("b").style="background-clor='blue'";
+function changeColor(x) {
+    if(x == 1) {
+        document.querySelector(".block").style.backgroundColor = 'blue';
     }
-    else{
-        document.getElementById("b").style="background-clor='red'";
+    else {
+        document.querySelector(".block").style.backgroundColor = 'red';
     }
+}
+
+function exit() {
+    let car = {
+        name : "Toyota",
+        start: function() {
+            console.log("Brum Brum! car started!");
+        }
+    };
+
+    car.start();
+    
 }
